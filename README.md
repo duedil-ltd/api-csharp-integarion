@@ -55,14 +55,14 @@ namespace DuedilApi.Controllers
     public class HomeController : Controller
     {
         const string RESPONSE_FORMAT = "json";
-        const string API\_AUTH\_TOKEN = "<YOUR\_API\_KEY_HERE>";
-        const string DEFAULT\_COMPANY\_ID = "06999618";
+        const string API_AUTH_TOKEN = "<YOUR_API_KEY_HERE>";
+        const string DEFAULT_COMPANY_ID = "06999618";
 
         private IEssentialsApi essentialsApi;
 
         public HomeController() 
         {
-            Configuration.ApiKey\["X-AUTH-TOKEN"\] = API\_AUTH\_TOKEN;
+            Configuration.ApiKey["X-AUTH-TOKEN"] = API_AUTH_TOKEN;
             essentialsApi = new EssentialsApi();
         }
 
@@ -70,7 +70,7 @@ namespace DuedilApi.Controllers
         {
             try
             {
-                string companyId = CompanyId == null ? DEFAULT\_COMPANY\_ID: CompanyId;
+                string companyId = CompanyId == null ? DEFAULT_COMPANY_ID: CompanyId;
             
                 Debug.WriteLine(CompanyId);
                 Debug.WriteLine(companyId);
@@ -78,11 +78,11 @@ namespace DuedilApi.Controllers
                 // Company vitals
                 CompanyResponse result = essentialsApi.CompanyCountryCodeCompanyIdFormatGet("gb", companyId, RESPONSE_FORMAT);
 
-                ViewData\["companyId"\] = result.CompanyId;
-                ViewData\["countryCode"\] = result.CountryCode;
-                ViewData\["name"\] = result.Name;
-                ViewData\["status"\] = result.SimplifiedStatus;
-                ViewData\["address"\] = result.RegisteredAddress.FullAddress;
+                ViewData["companyId"] = result.CompanyId;
+                ViewData["countryCode"] = result.CountryCode;
+                ViewData["name"] = result.Name;
+                ViewData["status"] = result.SimplifiedStatus;
+                ViewData["address"] = result.RegisteredAddress.FullAddress;
 
                 Debug.WriteLine(result);
             }
