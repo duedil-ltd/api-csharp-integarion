@@ -1,14 +1,21 @@
+# DueDil API V4 C# Client Integration
+
+Prerequisites
+-------------
+1. brew install mono
+2. Intsall [VisualStudio](https://docs.microsoft.com/en-us/visualstudio/mac/installation)
+
 Build new API client
 --------------------
 
 1.  Go to API docs page [https://www.duedil.com/api/docs](https://www.duedil.com/api/docs)
-2.  Click the top button "Generate DueDil V4 API client"
-3.  From the dropdown menu select you desired language/platform, for this tutorial **C# .NET 2** and download the ZIP package
+2.  Click the top button **"Generate DueDil V4 API client"**
+3.  From the dropdown menu select you desired language/platform, for this tutorial **"C# .NET 2"** and download the ZIP package
 
 Preparing the client DLL
 ------------------------
 
-1.  This is for Mac users
+1.  This is for Mac/Linux users only
 2.  Extract the archive with the generated client
 3.  Compile the client code  
       
@@ -22,11 +29,11 @@ Create new C# project and import client
 ---------------------------------------
 
 1.  Open VisualStudio and create new MVC project
-2.  In the root of the project create new folder **libs/**
+2.  In the root of the project create new folder **"libs/"**
 3.  Copy the DLL file of the Swagger client there
-4.  From the top menu select **Project > Edit Preferences > .Net Assembly (tab)**
-5.  Browse and add the Swagger client to the build of the project **./libs/IO.Swagger.dll**
-6.  From the top menu select **Project > Add NuGet Packages ... > Search for "RestSharp.Net2" and install**
+4.  From the top menu select **"Project > Edit Preferences > .Net Assembly (tab)"**
+5.  Browse and add the Swagger client to the build of the project **"./libs/IO.Swagger.dll"**
+6.  From the top menu select **"Project > Add NuGet Packages ... > Search for "RestSharp.Net2" and install"**
 7.  Build the project
 
 Updating the code to work with the API
