@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<style>
+    p span {
+        font-weight: bold;
+    }
+</style>
+<h2>@ViewData["Title"]</h2>
+<h3>Company details: @ViewData["name"]</h3>
+
+<p>
+    <span>Company number:</span> 
+    <a href="https://www.duedil.com/company/@ViewData["countryCode"].ToString().ToLower()/@ViewData["companyId"]" target="_blank">
+        company/@ViewData["countryCode"].ToString().ToLower()/@ViewData["companyId"]
+    </a>
+</p>
+<p><span>Status: </span> @ViewData["status"]</p>
+<p><span>Address: </span> @ViewData["address"]</p>

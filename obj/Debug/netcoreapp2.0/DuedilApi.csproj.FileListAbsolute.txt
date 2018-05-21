@@ -1,0 +1,13 @@
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/DuedilApi.deps.json
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/DuedilApi.runtimeconfig.json
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/DuedilApi.runtimeconfig.dev.json
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/DuedilApi.dll
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/DuedilApi.pdb
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/IO.Swagger.dll
+/Users/alex/dev/DuedilApi/DuedilApi/bin/Debug/netcoreapp2.0/IO.Swagger.xml
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.csproj.CoreCompileInputs.cache
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.AssemblyInfoInputs.cache
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.AssemblyInfo.cs
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.dll
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.pdb
+/Users/alex/dev/DuedilApi/DuedilApi/obj/Debug/netcoreapp2.0/DuedilApi.csprojResolveAssemblyReference.cache
